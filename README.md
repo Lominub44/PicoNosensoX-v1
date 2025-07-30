@@ -61,8 +61,8 @@ print(tokenizer.decode(outputs[0]))
 
 ## Training Details
 ### Training Data
-- ~1GB Textbooks: [smollm-corpus](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus) (Cosmopedia v2)
-- ~1.7GB Chats: [Hermes-3-Dataset](https://huggingface.co/datasets/NousResearch/Hermes-3-Dataset)
+- ~1GB Textbooks: [smollm-corpus, Cosmopedia v2 only](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus) (ODC-BY)
+- ~1.7GB Chats: [Hermes-3-Dataset](https://huggingface.co/datasets/NousResearch/Hermes-3-Dataset) (Apache-2.0)
 
 ### Training Procedure
 - **Hardware:** 1x Intel Core Ultra 7 155H
