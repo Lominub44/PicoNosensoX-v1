@@ -3,7 +3,7 @@ import torch
 
 def generate_text(prompt):
     # Load pre-trained model and tokenizer
-    model_name = "initial_model"
+    model_name = "checkpoint-???"
     tokenizer = GPT2Tokenizer.from_pretrained(model_name)
     model = GPT2LMHeadModel.from_pretrained(model_name)
     
